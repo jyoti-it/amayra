@@ -10,29 +10,29 @@ scanf("%lf",&sal);
       if(sal<=35000)
       {
 	 printf("Enter your grade\n");
-	 scanf("%c",&grade);
+	 scanf(" %c",&grade);
 
 	     if(grade=='a'||grade=='A')
 	     {
-	     printf("Increased salary");
+	     printf("Increased salary :-");
 	     sal=sal+sal*0.2;
 	     printf("%lf",sal);
 	     }
 	     else if(grade=='b'||grade=='B')
 	     {
-	     printf("Increased salary");
+	     printf("Increased salary :-");
 	     sal=sal+sal*0.15;
 	     printf("%lf",sal);
 	     }
 	     else if(grade=='c'||grade=='C')
 	     {
-	     printf("Increased salary");
+	     printf("Increased salary :-");
 	     sal=sal+sal*0.1;
 	     printf("%lf",sal);
 	     }
 	     else if(grade=='d'||grade=='D')
 	     {
-	     printf("Increased salary");
+	     printf("Increased salary :-");
 	     sal=sal+sal*0.05;
 	     printf("%lf",sal);
 	     }
